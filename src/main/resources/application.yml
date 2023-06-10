@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: root  
+    password: test
+    url: jdbc:mysql://localhost:3306/blogapplication 
+    driver-class-name: com.mysql.cj.jdbc.Driver  jpa:    hibernate:      ddl-auto: update
+    show-sql: true
